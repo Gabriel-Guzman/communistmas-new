@@ -1,0 +1,16 @@
+#top-row {
+    margin: 4%;
+}
+
+#hello{
+    padding: 5px;
+    border: 1px solid black;
+    border-width: 30px;
+    margin-left: 5px
+}
+
+#boi {
+    padding: 15px;
+    border: 1px solid black;
+    border-width: thick;
+}
