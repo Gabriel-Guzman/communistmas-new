@@ -30,7 +30,9 @@ body {
 
 #welcome-row {
     margin-top: 10%;
-    
+    padding: 0 !important;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 #welcome-text {
@@ -38,9 +40,43 @@ body {
     
     color: white;
     -webkit-text-stroke: 1px #000; /* stroke color and weight */
-    font-size: 60pt;
+    font-size: 4em;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 
 
 
+
+
+
+#enlist-btn-container {
+    max-width: 250px;
+    height: 60px;
+    margin-top: 10%;
+}
+
+.btn-block {
+    height: 100%;
+}
+
+
+
+
+
+#welcome-txt-jumbotron {
+    background-color: transparent;
+}
+
+
+
+#enlist-btn-row {
+    max-width: 100%;
+}
+
+#enlist-btn {
+    /*text-align: center;
+    font-size: 2em;*/
+}
