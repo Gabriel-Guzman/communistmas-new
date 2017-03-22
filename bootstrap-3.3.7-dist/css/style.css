@@ -15,12 +15,32 @@
     border-width: thick;
 }
 
-html { 
+body { 
     background: url('../../images/SantaMarx.png') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+#welcome-row {
+    margin-top: 10%;
+    
+}
+
+#welcome-text {
+    font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif;
+    
+    color: white;
+    -webkit-text-stroke: 1px #000; /* stroke color and weight */
+    font-size: 60pt;
+}
+
+
 
 
